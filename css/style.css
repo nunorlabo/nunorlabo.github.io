@@ -26,6 +26,10 @@
 General Style
 --------------------------------------------------------------*/
 
+input[type="submit"] {
+	-webkit-appearance: none;
+}
+
 html{
 	overflow-x:hidden !important;
 	height:100%;
