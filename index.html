@@ -61,6 +61,7 @@
 			<div class="link-holder" id="nav">
 				<ul>
 					<li class="current"><a href="#about" class="scroll-link">About</a></li>
+					<li><a href="#testimonials" class="scroll-link">Internships</a></li>
 					<li><a href="#resume" class="scroll-link">Resume</a></li>
 					<li><a href="#contacts" class="scroll-link">Contacts</a></li>
 				</ul>
@@ -153,14 +154,14 @@
 					<div id="owl-demo" class="owl-carousel">
 					
 					  <div class="item fist-slide">
-					  	<div class="small-separator"></div>
-						<h2 style="font-size:30px;margin-top:35px;margin-bottom:20px;">布川　陸</h2>  
-						<p>情報系の研究室でHPCとIoTに関する研究に携わる。価値あるモノやサービスを作るために、研究の傍ら様々な分野のものづくりに挑戦中。</p>
+						<div class="small-separator"></div>
+						<h2 style="font-size:30px;margin-top:35px;margin-bottom:20px;">布川　陸</h2>
+						<p style="font-size:15px;margin-bottom:25px;">スーパーコンピュータを扱う研究室で、異種複数計算リソース上のタスクマッピングに関する研究に携わる。様々な分野のものづくりの経験から来る「人の心を動かす形でユーザーの本質的な課題解決を達成するプロダクトを製作したい」という思いと、研究活動から来る「社会を支えているサービスの裏側で動いている大規模なシステム構築に関わりたい」という思いに折り合いを付ける方法を模索中。</p style="font-size:30px;margin-top:35px;margin-bottom:20px;">
 	
 					  
 						<img src="images/me.jpg" class="present-block animaper" alt="" title="">
 					  
-					  </div>
+					  </div>>
 					  		  
 					  
 					</div>
@@ -170,36 +171,60 @@
 	</div><!--=============== section about end ===============-->
 	
 
-<!--=============== section subscribe ===============-->
+<!--=============== section testimontals ===============-->
 
-	<div id="subscribe" class="sections bg-fx">
-		<div class="content">
-		<div class="quote-icon"><i class="fa fa-rss"></i></div>
-			<div class="rester"></div>
-			<div class="rester black"></div>
-			<div class="container">
-					
-				<h3 class="sections-head">Subscribe</h3>
+<div id="testimonials" class="sections bg-fx">
+	<div class="content">
+		<div class="quote-icon"><i class="fa fa-briefcase"></i></div>
+		<div class="rester"></div>
+		<div class="rester black"></div>
+		
+		<div class="container">
+		
+
+			
+			
+			<div class="clear"></div>
+
+				<h2 class="sections-head" style="font-size:25px;">Internships</h2>
 				<div class="small-separator ws"></div>
-				<p>In preparation...</p>
-				<div class="clear"></div>
-							
-				<div class="subcribe">
-					<span class="overlay suboverlay"></span>
-					<fieldset>
-						<form class="subscriptionForm" method="post">
-							<input id="subscriptionForm" class="inputForm" type="text" value="Enter Your Email Address" onFocus="if (this.value=='Enter Your Email Address') this.value=''" onBlur="if (this.value==''){this.value='Enter Your Email Address'}" />
-							<input type="submit" id="submitButton" class="transition" value="Send">
-						</form>
+
+				<div id="clientsay" class="owl-carousel">
+					
+				<!--1 testimontal -->
+
+					<div class="item">
+					
+						<p>「オンライン上におけるコンテンツの共有」に焦点を当てたプロダクトを製作。現行のSNS上では、好みのコンテンツの魅力を望み通りに伝えられるかどうかは個々人の文章力に依存している節がある。そのため、書店などでよく見かける「セリフ付きのポップ」が良く客の足を止めているというファクトから、コンテンツを「その中で登場する台詞」をベースに共有することができるサービスを製作。拡散力を高めるためにTwitter上で動的OGPを採用し、Twitterのタイムライン上で誰でもインパクトのある形でコンテンツの共有を行うことを目指した。</p style="font-size:15px;">
+						<span>- 楽天 二子玉川夏の陣2020 (2weeks) -</span>
 						
-						<div id="success">Thanks for your subscription</div>
-						<div id="error">Please enter a valid email address</div>
+					</div>
+
+				<!--2 testimontal -->
+					
+					<div class="item">
+	
+						<p>船舶の保険会社というクライアントの「契約船の衝突事故により、過剰な保険金支払いが発生している」という課題を解決するために、データの示す事実や専門家の知見を集めて衝突事故の発生要因を分析し、ヒューマンエラーを削減するための意識改善、すなわち運転監視による抑止力が最も有効であるとの結論に達した。これを実現するために、危険運転の頻度によって船舶のランク付けを行うシステムによる、潜在的な事故の未然防止と事故発生率に応じた船舶保険料の適正化という２つのアプローチを提案した。</p style="font-size:15px;">
+						<span>- TCS Japan Hackathon (5days) -</span>
 						
-					</fieldset>
-				</div> 										
+					</div>
+
+				<!--3 testimontal -->
+				
+					<div class="item">
+
+						<p>オンライン就活というテーマのもと、就活におけるインターン経験が実質的に重要視される中、「周りの動向を知る機会やきっかけが無いために、インターンに応募するまでのあと一歩を踏み出せない学生」に向けた、就活生向けのインターン支援サービスを製作。「話すことで不安は解消する」という研究結果の下、志望する業界や就活に際して不安に思うことなどをベースに就活生同士をマッチングさせ、ボットによる話題提供によって会話を促し、不安が解消されていく過程で興味のある業界のインターン情報を提示することで、ポジティブな心理状態の中でインターンへ応募させることを狙った。</p style="font-size:10px;">
+						<span>- VOYAGE GROUP Treasure (2weeks) -</span>
+						
+					</div>
+					
+				</div>
+			
 			</div>
-		</div>	
-	</div>	<!--===============  section subscribe end ===============-->
+						
+	</div>
+	
+</div><!--===============  section testimontal end ===============-->							 	
 
 
 <!--=============== section resume ===============-->	
@@ -264,7 +289,7 @@
 									</ul>
 								  </div>								
 	
-								<p>仙台で説明会を開催する企業と学生幹事をつなげるwebアプリ。企業説明会の集客の多重下請け構造を変えるために制作。現在クローズドβテスト中。</br>Language: Ruby on Rails/HTML,CSS,JS</p>
+								<p>仙台で説明会を開催する企業と学生幹事をつなげるwebアプリ。仙台市における企業説明会の集客の多重下請け構造を変えるために制作。</br>Language: Ruby on Rails/HTML,CSS,JS</p>
 							
 							</div>
 						</div>
